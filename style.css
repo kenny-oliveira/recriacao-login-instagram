@@ -77,13 +77,38 @@ a{
     min-height: 19rem;
 }
 
+.get-the-app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1.3rem 0;
+}
+
+.download {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+}
+
+
+.app-download img{
+    height: 3rem;
+    width: 10rem;
+    background-size: cover;
+}
+
 .instagram-logo{
     height:3rem;
 }
 
 .link-blue{
-    color: blue;
+    color: #0095f6;
     cursor: pointer;
+    font-weight: 600;
 }
 
 .instagram-login{
@@ -95,16 +120,13 @@ a{
 
 #media{
     position: absolute;
-    top: 90%;
+    top: 99%;
     width: 50%;
-
 }
 
 #media ul li{
-    list-style-type: none;
     display: inline-block;
-    margin-left: 10px;
-    padding-top:20px
+    list-style-type: none;
 }
 
 #media ul li a{
@@ -112,6 +134,13 @@ a{
     color: #8e8e8e;
 }
 
+#phone2:hover {
+    z-index: 1;
+}
+
+#direitos{
+    text-decoration: line-through;
+}
 
 
 @media only screen and (max-width: 1024px) {
@@ -123,8 +152,11 @@ a{
     .group{
         width: 100%;
     }
-    #media ul li{
-        padding-top:45px;
+
+    #media{
+        position: absolute;
+        top: 140%;
+        width: 50%;
     }
 
     .instagram-relogin{
